@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: security-db
+  # 数据源配置
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/security_db?useUnicode=true&characterEncoding=utf8&useSSL=true
+    username: root
+    password: root
+
+# 指定mybatis的映射文件路径 mapper接口与mapper文件的映射关系
+mybatis:
+  mapper-locations: classpath:mapper/*Mapper.xml # 注意大小写
+server:
+  port: 8078
+
+# 当项目启动后，会自动创建datasource并且将其注入sqlSessionFactory
+# mybatis会根据我们的mapper接口生成指定的代理类，代理类中通过sqlSession操作数据库

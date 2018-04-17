@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/security-db/security-db.iml" filepath="$PROJECT_DIR$/security-db/security-db.iml" />
+      <module fileurl="file://$PROJECT_DIR$/security-no-db/security-no-db.iml" filepath="$PROJECT_DIR$/security-no-db/security-no-db.iml" />
+      <module fileurl="file://$PROJECT_DIR$/security-oatuth2/security-oatuth2.iml" filepath="$PROJECT_DIR$/security-oatuth2/security-oatuth2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/security-pwd/security-pwd.iml" filepath="$PROJECT_DIR$/security-pwd/security-pwd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/security-qqlogin/security-qqlogin.iml" filepath="$PROJECT_DIR$/security-qqlogin/security-qqlogin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security.iml" filepath="$PROJECT_DIR$/spring-security.iml" />
+    </modules>
+  </component>
+</project>

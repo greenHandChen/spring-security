@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mapper.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.ceh.securitypwd.mapper.UserRoleMapper">
+
+    <insert id="insertUserRole" parameterType="com.ceh.securitypwd.dto.UserRoleDTO">
+        INSERT  INTO user_role(user_id,role_id) VALUES (#{userId},#{roleId})
+    </insert>
+</mapper>

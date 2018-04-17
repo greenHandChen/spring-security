@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="security-db" />
+        <module name="security-pwd" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="security-db" target="1.8" />
+      <module name="security-no-db" target="1.8" />
+      <module name="security-oatuth2" target="1.8" />
+      <module name="security-pwd" target="1.8" />
+      <module name="security-qqlogin" target="1.8" />
+      <module name="spring-security" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
