@@ -79,6 +79,8 @@ public class Oauth2ServerConfiguration {
         @Override
         public void configure(AuthorizationServerEndpointsConfigurer endpointsConfigurer) {
             endpointsConfigurer.tokenStore(new RedisTokenStore(redisConnectionFactory))
+                    // oauth2的认证流程和security的登陆认证流程类似，采用security的认证流程进行认证。
+                    // 注入security的用户认证
                     .authenticationManager(authenticationManager);
         }
 
