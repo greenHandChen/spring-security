@@ -12,7 +12,7 @@ spring:
 mybatis:
   mapper-locations: classpath:mapper/*Mapper.xml # 注意大小写
 server:
-  port: 8078
+  port: 8098
 
 # 当项目启动后，会自动创建datasource并且将其注入sqlSessionFactory
 # mybatis会根据我们的mapper接口生成指定的代理类，代理类中通过sqlSession操作数据库

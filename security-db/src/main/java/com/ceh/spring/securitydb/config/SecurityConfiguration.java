@@ -17,17 +17,24 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
     @Autowired
     private UserDetailsService userDetailsService;
 
+     /**
+       * @Author: enHui.Chen
+       * @Description: 1.将会按照声明的顺序进行过滤 2.对于hasRole方法，可以省略"ROLE_"前缀
+       * @Data 2018/4/24
+       */
     @Override
     public void configure(HttpSecurity security) throws Exception {
         security.authorizeRequests()
-                .antMatchers("/").permitAll() // 包含了对静态资源的不拦截 ?
-                .antMatchers("/admin/**").hasRole("ADMIN")
+                .antMatchers("/","/home","/registryPage","/registry").permitAll()// 接口拦截配置
+                .antMatchers("/jquery/**").permitAll()// 静态资源的拦截配置
+                .antMatchers("/admin/**").hasRole("ADMIN")// 根据角色来放行
+                .anyRequest().authenticated()// 拦截所有请求
                 .and()
-                .formLogin().loginPage("/login").defaultSuccessUrl("/admin/hello")
+                .formLogin().loginPage("/login").defaultSuccessUrl("/admin/hello").permitAll()
                 .and()
-                .logout().logoutUrl("/logout").logoutSuccessUrl("/login")
-                .and();
-//                禁用跨域伪造请求,spring securiy默认开始CSRF功能，并且拦截POSTc请求方式的请求
+                .logout().logoutUrl("/logout").logoutSuccessUrl("/login");
+//                        禁用跨域伪造请求,spring securiy默认开始CSRF功能，并且拦截POSTc请求方式的请求
+//                .and()
 //                .csrf().disable();
     }
 

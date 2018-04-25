@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="610e36e2-467f-4a15-a3c7-e8af18fa1a7a" name="Default" comment="修改project pom">
+    <list default="true" id="610e36e2-467f-4a15-a3c7-e8af18fa1a7a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/security-oatuth2/src/main/java/com/ceh/spring/securityoatuth2/securityoatuth2/config/Oauth2ServerConfiguration.java" afterPath="$PROJECT_DIR$/security-oatuth2/src/main/java/com/ceh/spring/securityoatuth2/securityoatuth2/config/Oauth2ServerConfiguration.java" />
+      <change beforePath="$PROJECT_DIR$/security-db/src/main/java/com/ceh/spring/securitydb/config/SecurityConfiguration.java" afterPath="$PROJECT_DIR$/security-db/src/main/java/com/ceh/spring/securitydb/config/SecurityConfiguration.java" />
+      <change beforePath="$PROJECT_DIR$/security-db/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/security-db/src/main/resources/application.yml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/security-db/target/" />
@@ -20,74 +21,114 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SecurityConfiguration.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/security-oatuth2/src/main/java/com/ceh/spring/securityoatuth2/securityoatuth2/config/SecurityConfiguration.java">
+      <file leaf-file-name="LogoutFilter.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.4.RELEASE/spring-security-web-4.2.4.RELEASE-sources.jar!/org/springframework/security/web/authentication/logout/LogoutFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="26" column="52" lean-forward="true" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
+            <state relative-caret-position="336">
+              <caret line="51" column="34" lean-forward="false" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AbstractAuthenticationFilterConfigurer.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/4.2.4.RELEASE/spring-security-config-4.2.4.RELEASE.jar!/org/springframework/security/config/annotation/web/configurers/AbstractAuthenticationFilterConfigurer.class">
+      <file leaf-file-name="GenericFilterBean.class" pinned="false" current-in-tab="true">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.14.RELEASE/spring-web-4.3.14.RELEASE.jar!/org/springframework/web/filter/GenericFilterBean.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="57" column="19" lean-forward="false" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Oauth2ServerConfiguration.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/security-oatuth2/src/main/java/com/ceh/spring/securityoatuth2/securityoatuth2/config/Oauth2ServerConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="46" column="30" lean-forward="true" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="30" />
+            <state relative-caret-position="432">
+              <caret line="97" column="115" lean-forward="false" selection-start-line="97" selection-start-column="115" selection-end-line="97" selection-end-column="115" />
               <folding>
-                <element signature="class#ResourceServerConfiguration#0;class#Oauth2ServerConfiguration#0" expanded="false" />
+                <marker date="1523952453309" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1523952453309" expanded="false" signature="154:1692" ph="..." />
+                <marker date="1523952453309" expanded="true" signature="2178:2185" ph="{}" />
+                <marker date="1523952453309" expanded="false" signature="2231:2242" ph=" { " />
+                <marker date="1523952453309" expanded="false" signature="2267:2273" ph=" }" />
+                <marker date="1523952453309" expanded="false" signature="2330:2341" ph=" { " />
+                <marker date="1523952453309" expanded="false" signature="2372:2378" ph=" }" />
+                <marker date="1523952453309" expanded="true" signature="2420:2568" ph="{...}" />
+                <marker date="1523952453309" expanded="false" signature="2615:2626" ph=" { " />
+                <marker date="1523952453309" expanded="false" signature="2666:2672" ph=" }" />
+                <marker date="1523952453309" expanded="false" signature="2738:2749" ph=" { " />
+                <marker date="1523952453309" expanded="false" signature="2786:2792" ph=" }" />
+                <marker date="1523952453309" expanded="true" signature="2855:2893" ph="{...}" />
+                <marker date="1523952453309" expanded="true" signature="2921:2928" ph="{}" />
+                <marker date="1523952453309" expanded="false" signature="2991:3002" ph=" { " />
+                <marker date="1523952453309" expanded="false" signature="3040:3046" ph=" }" />
+                <marker date="1523952453309" expanded="true" signature="3126:4634" ph="{...}" />
+                <marker date="1523952453309" expanded="true" signature="4709:4716" ph="{}" />
+                <marker date="1523952453309" expanded="true" signature="4778:4785" ph="{}" />
+                <marker date="1523952453309" expanded="false" signature="4834:4845" ph=" { " />
+                <marker date="1523952453309" expanded="false" signature="4870:4876" ph=" }" />
+                <marker date="1523952453309" expanded="true" signature="4921:5022" ph="{...}" />
+                <marker date="1523952453309" expanded="true" signature="5079:5190" ph="{...}" />
+                <marker date="1523952453309" expanded="true" signature="5274:6310" ph="{...}" />
+                <marker date="1523952453309" expanded="true" signature="5395:6304" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AuthorizationServerTokenServices.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.0.14.RELEASE/spring-security-oauth2-2.0.14.RELEASE-sources.jar!/org/springframework/security/oauth2/provider/token/AuthorizationServerTokenServices.java">
+      <file leaf-file-name="Filter.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.27/tomcat-embed-core-8.5.27.jar!/javax/servlet/Filter.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
-              <folding />
+            <state relative-caret-position="96">
+              <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+              <folding>
+                <marker date="1523952381605" expanded="false" signature="0:104" ph="/.../" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClientDetailsServiceBuilder.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.0.14.RELEASE/spring-security-oauth2-2.0.14.RELEASE-sources.jar!/org/springframework/security/oauth2/config/annotation/builders/ClientDetailsServiceBuilder.java">
+      <file leaf-file-name="CharacterEncodingFilter.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.14.RELEASE/spring-web-4.3.14.RELEASE.jar!/org/springframework/web/filter/CharacterEncodingFilter.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1904">
-              <caret line="152" column="36" lean-forward="true" selection-start-line="152" selection-start-column="36" selection-end-line="152" selection-end-column="36" />
-              <folding />
+            <state relative-caret-position="96">
+              <caret line="14" column="53" lean-forward="false" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+              <folding>
+                <marker date="1523952453309" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1523952453309" expanded="false" signature="154:380" ph="..." />
+                <marker date="1523952453309" expanded="true" signature="602:696" ph="{...}" />
+                <marker date="1523952453309" expanded="false" signature="749:760" ph=" { " />
+                <marker date="1523952453309" expanded="false" signature="782:788" ph=" }" />
+                <marker date="1523952453309" expanded="true" signature="865:926" ph="{...}" />
+                <marker date="1523952453309" expanded="true" signature="1041:1353" ph="{...}" />
+                <marker date="1523952453309" expanded="false" signature="1399:1410" ph=" { " />
+                <marker date="1523952453309" expanded="false" signature="1435:1441" ph=" }" />
+                <marker date="1523952453309" expanded="false" signature="1474:1485" ph=" { " />
+                <marker date="1523952453309" expanded="false" signature="1506:1512" ph=" }" />
+                <marker date="1523952453309" expanded="true" signature="1570:1680" ph="{...}" />
+                <marker date="1523952453309" expanded="true" signature="1752:1817" ph="{...}" />
+                <marker date="1523952453309" expanded="false" signature="1862:1873" ph=" { " />
+                <marker date="1523952453309" expanded="false" signature="1906:1912" ph=" }" />
+                <marker date="1523952453309" expanded="true" signature="1986:2053" ph="{...}" />
+                <marker date="1523952453309" expanded="false" signature="2099:2110" ph=" { " />
+                <marker date="1523952453309" expanded="false" signature="2144:2150" ph=" }" />
+                <marker date="1523952453309" expanded="true" signature="2308:2736" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DefaultTokenServices.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.0.14.RELEASE/spring-security-oauth2-2.0.14.RELEASE-sources.jar!/org/springframework/security/oauth2/provider/token/DefaultTokenServices.java">
+      <file leaf-file-name="OncePerRequestFilter.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.14.RELEASE/spring-web-4.3.14.RELEASE.jar!/org/springframework/web/filter/OncePerRequestFilter.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="54" column="61" lean-forward="true" selection-start-line="54" selection-start-column="61" selection-end-line="54" selection-end-column="61" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AuthorizationServerEndpointsConfigurer.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.0.14.RELEASE/spring-security-oauth2-2.0.14.RELEASE-sources.jar!/org/springframework/security/oauth2/config/annotation/web/configurers/AuthorizationServerEndpointsConfigurer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="101" column="40" lean-forward="true" selection-start-line="101" selection-start-column="40" selection-end-line="101" selection-end-column="40" />
-              <folding />
+            <state relative-caret-position="96">
+              <caret line="16" column="58" lean-forward="false" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
+              <folding>
+                <marker date="1523952453309" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1523952453309" expanded="false" signature="154:483" ph="..." />
+                <marker date="1523952453309" expanded="true" signature="661:668" ph="{}" />
+                <marker date="1523952453309" expanded="true" signature="813:1910" ph="{...}" />
+                <marker date="1523952453309" expanded="true" signature="1973:2239" ph="{...}" />
+                <marker date="1523952453309" expanded="true" signature="2307:2391" ph="{...}" />
+                <marker date="1523952453309" expanded="true" signature="2458:2550" ph="{...}" />
+                <marker date="1523952453309" expanded="true" signature="2607:2778" ph="{...}" />
+                <marker date="1523952453309" expanded="true" signature="2870:2899" ph="{...}" />
+                <marker date="1523952453309" expanded="false" signature="2953:2964" ph=" { " />
+                <marker date="1523952453309" expanded="false" signature="2976:2982" ph=" }" />
+                <marker date="1523952453309" expanded="false" signature="3036:3047" ph=" { " />
+                <marker date="1523952453309" expanded="false" signature="3059:3065" ph=" }" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -118,6 +159,8 @@
       <find>Approval</find>
       <find>accessTokenValiditySeconds</find>
       <find>Cannot audit pass the expense report</find>
+      <find>application status not passed or submit audit and can not audit passed!</find>
+      <find>loginFormUrl</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -156,12 +199,14 @@
         <option value="$PROJECT_DIR$/security-oatuth2/src/main/java/com/ceh/spring/securityoatuth2/securityoatuth2/security/MyUserDetailService.java" />
         <option value="$PROJECT_DIR$/security-oatuth2/src/main/java/com/ceh/spring/securityoatuth2/securityoatuth2/SecurityOatuth2Application.java" />
         <option value="$PROJECT_DIR$/security-oatuth2/src/main/java/com/ceh/spring/securityoatuth2/securityoatuth2/config/ThymeleafConfiguration.java" />
-        <option value="$PROJECT_DIR$/security-db/src/main/java/com/ceh/spring/securitydb/config/SecurityConfiguration.java" />
         <option value="$PROJECT_DIR$/security-oatuth2/src/main/java/com/ceh/spring/securityoatuth2/securityoatuth2/config/WebMvcConfiguration.java" />
         <option value="$PROJECT_DIR$/security-oatuth2/src/main/resources/web/hello.html" />
         <option value="$PROJECT_DIR$/security-oatuth2/src/main/resources/web/login.html" />
-        <option value="$PROJECT_DIR$/security-oatuth2/src/main/java/com/ceh/spring/securityoatuth2/securityoatuth2/config/SecurityConfiguration.java" />
         <option value="$PROJECT_DIR$/security-oatuth2/src/main/java/com/ceh/spring/securityoatuth2/securityoatuth2/config/Oauth2ServerConfiguration.java" />
+        <option value="$PROJECT_DIR$/security-oatuth2/src/main/java/com/ceh/spring/securityoatuth2/securityoatuth2/config/SecurityConfiguration.java" />
+        <option value="$PROJECT_DIR$/security-db/src/main/java/com/ceh/spring/securitydb/config/WebMvcConfiguration.java" />
+        <option value="$PROJECT_DIR$/security-db/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/security-db/src/main/java/com/ceh/spring/securitydb/config/SecurityConfiguration.java" />
       </list>
     </option>
   </component>
@@ -228,101 +273,6 @@
               <item name="spring-security" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-security" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="spring-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-security" type="462c0819:PsiDirectoryNode" />
-              <item name="security-oatuth2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-security" type="462c0819:PsiDirectoryNode" />
-              <item name="security-oatuth2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-security" type="462c0819:PsiDirectoryNode" />
-              <item name="security-oatuth2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-security" type="462c0819:PsiDirectoryNode" />
-              <item name="security-oatuth2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-security" type="462c0819:PsiDirectoryNode" />
-              <item name="security-oatuth2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-security" type="462c0819:PsiDirectoryNode" />
-              <item name="security-oatuth2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ceh" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-security" type="462c0819:PsiDirectoryNode" />
-              <item name="security-oatuth2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ceh" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-security" type="462c0819:PsiDirectoryNode" />
-              <item name="security-oatuth2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ceh" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="securityoatuth2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-security" type="462c0819:PsiDirectoryNode" />
-              <item name="security-oatuth2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ceh" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="securityoatuth2" type="462c0819:PsiDirectoryNode" />
-              <item name="securityoatuth2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-security" type="462c0819:PsiDirectoryNode" />
-              <item name="security-oatuth2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ceh" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="securityoatuth2" type="462c0819:PsiDirectoryNode" />
-              <item name="securityoatuth2" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -339,7 +289,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="E:/artemis" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
-    <property name="SearchEverywhereHistoryKey" value="AuthorizationServerTokenServices &#9;PSI&#9;JAVA://org.springframework.security.oauth2.provider.token.AuthorizationServerTokenServices&#10;defau&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/springframework/security/oauth/spring-security-oauth2/2.0.14.RELEASE/spring-security-oauth2-2.0.14.RELEASE-sources.jar!/org/springframework/security/oauth2/provider/token/DefaultTokenServices.java&#10;Default&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/springframework/security/oauth/spring-security-oauth2/2.0.14.RELEASE/spring-security-oauth2-2.0.14.RELEASE.jar!/org/springframework/security/oauth2/common/DefaultOAuth2AccessToken.class&#10;TokenENd&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/springframework/security/oauth/spring-security-oauth2/2.0.14.RELEASE/spring-security-oauth2-2.0.14.RELEASE.jar!/org/springframework/security/oauth2/provider/endpoint/TokenEndpoint.class&#10;TokenEN&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/springframework/security/oauth/spring-security-oauth2/2.0.14.RELEASE/spring-security-oauth2-2.0.14.RELEASE.jar!/org/springframework/security/oauth2/provider/endpoint/TokenEndpoint.class&#10;grant&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/springframework/security/oauth/spring-security-oauth2/2.0.14.RELEASE/spring-security-oauth2-2.0.14.RELEASE.jar!/org/springframework/security/oauth2/provider/password/ResourceOwnerPasswordTokenGranter.class&#10;TokenEnd&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/springframework/security/oauth/spring-security-oauth2/2.0.14.RELEASE/spring-security-oauth2-2.0.14.RELEASE.jar!/org/springframework/security/oauth2/provider/endpoint/TokenEndpoint.class&#10;UsernameP&#9;PSI&#9;JAVA://org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter&#10;tokenend&#9;PSI&#9;JAVA://org.springframework.security.oauth2.provider.endpoint.TokenEndpoint&#10;Token&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/springframework/security/oauth/spring-security-oauth2/2.0.14.RELEASE/spring-security-oauth2-2.0.14.RELEASE.jar!/org/springframework/security/oauth2/provider/endpoint/TokenEndpoint.class&#10;ClientCredentialsTokenEndpointFilter&#9;PSI&#9;JAVA://org.springframework.security.oauth2.provider.client.ClientCredentialsTokenEndpointFilter&#10;Oauth2F&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.security.oauth2.client.OAuth2RestOperationsConfiguration.SessionScopedConfiguration#oauth2ClientFilterRegistration&#10;TokenE&#9;PSI&#9;JAVA://org.springframework.security.oauth2.provider.endpoint.TokenEndpoint&#10;tokenendpoint&#9;PSI&#9;JAVA://org.springframework.security.oauth2.provider.endpoint.TokenEndpoint&#10;Oauth&#9;FILE&#9;file://E:/spring-security/security-oatuth2/src/main/java/com/ceh/spring/securityoatuth2/securityoatuth2/security/controller/Oauth2Controller.java&#10;ExceptionTranslationFilter &#9;PSI&#9;JAVA://org.springframework.security.web.access.ExceptionTranslationFilter&#10;AuthenticationEntryPoint&#9;PSI&#9;JAVA://org.springframework.security.web.AuthenticationEntryPoint&#10;AnonymousAuthenticationFilter &#9;PSI&#9;JAVA://org.springframework.security.web.authentication.AnonymousAuthenticationFilter&#10;AbstractAuthenticationProcessingFilter &#9;PSI&#9;JAVA://org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter&#10;HttpSessionSecurityContextRepository &#9;PSI&#9;JAVA://org.springframework.security.web.context.HttpSessionSecurityContextRepository&#10;UsernamePasswordAuthenticationFilter &#9;PSI&#9;JAVA://org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter&#10;SecurityContextPersistenceFilter &#9;PSI&#9;JAVA://org.springframework.security.web.context.SecurityContextPersistenceFilter&#10;AuthenticationMan&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/springframework/security/spring-security-core/4.2.4.RELEASE/spring-security-core-4.2.4.RELEASE.jar!/org/springframework/security/authentication/AuthenticationManager.class&#10;authenticationM&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/springframework/security/spring-security-core/4.2.4.RELEASE/spring-security-core-4.2.4.RELEASE.jar!/org/springframework/security/authentication/AuthenticationManager.class&#10;daoau&#9;PSI&#9;JAVA://org.springframework.security.authentication.dao.DaoAuthenticationProvider&#10;Daoauthen&#9;PSI&#9;JAVA://org.springframework.security.config.annotation.authentication.configurers.userdetails.DaoAuthenticationConfigurer&#10;Authen&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/springframework/security/spring-security-core/4.2.4.RELEASE/spring-security-core-4.2.4.RELEASE.jar!/org/springframework/security/authentication/AuthenticationManager.class&#10;CSRFF&#9;PSI&#9;JAVA://org.springframework.security.web.csrf.CsrfFilter&#10;authen&#9;PSI&#9;JAVA://com.ceh.spring.securityoatuth2.securityoatuth2.config.Oauth2ServerConfiguration.AuthorizationServerConfiguration#authenticationManager&#10;authenticationManagerBean&#9;PSI&#9;JAVA://org.springframework.security.config.authentication.AuthenticationManagerBeanDefinitionParser&#10;ClientCredentialsTokenEndpointFilte&#9;PSI&#9;JAVA://org.springframework.security.oauth2.provider.client.ClientCredentialsTokenEndpointFilter&#10;OAuth2AuthenticationProcessingFilter&#9;PSI&#9;JAVA://org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter&#10;AuthorizationServerTokenServices&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/springframework/security/oauth/spring-security-oauth2/2.0.14.RELEASE/spring-security-oauth2-2.0.14.RELEASE.jar!/org/springframework/security/oauth2/provider/token/AuthorizationServerTokenServices.class&#10;AbstractTokenGranter &#9;PSI&#9;JAVA://org.springframework.security.oauth2.provider.token.AbstractTokenGranter&#10;TokenEndpoint&#9;PSI&#9;JAVA://org.springframework.security.oauth2.provider.endpoint.TokenEndpoint" />
+    <property name="SearchEverywhereHistoryKey" value="filter&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/springframework/security/spring-security-web/4.2.4.RELEASE/spring-security-web-4.2.4.RELEASE-sources.jar!/org/springframework/security/web/authentication/logout/LogoutFilter.java&#10;LogoutFilter&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/springframework/security/spring-security-web/4.2.4.RELEASE/spring-security-web-4.2.4.RELEASE-sources.jar!/org/springframework/security/web/authentication/logout/LogoutFilter.java&#10;LogoutHandler&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/springframework/security/spring-security-web/4.2.4.RELEASE/spring-security-web-4.2.4.RELEASE-sources.jar!/org/springframework/security/web/csrf/CsrfLogoutHandler.java&#10;CsrfLogoutHandler&#9;PSI&#9;JAVA://org.springframework.security.web.csrf.CsrfLogoutHandler&#10;AbstractSecurityWebApplicationInitializer&#9;PSI&#9;JAVA://org.springframework.security.web.context.AbstractSecurityWebApplicationInitializer&#10;AuthorizationServerTokenServices &#9;PSI&#9;JAVA://org.springframework.security.oauth2.provider.token.AuthorizationServerTokenServices&#10;defau&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/springframework/security/oauth/spring-security-oauth2/2.0.14.RELEASE/spring-security-oauth2-2.0.14.RELEASE-sources.jar!/org/springframework/security/oauth2/provider/token/DefaultTokenServices.java&#10;Default&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/springframework/security/oauth/spring-security-oauth2/2.0.14.RELEASE/spring-security-oauth2-2.0.14.RELEASE.jar!/org/springframework/security/oauth2/common/DefaultOAuth2AccessToken.class&#10;TokenENd&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/springframework/security/oauth/spring-security-oauth2/2.0.14.RELEASE/spring-security-oauth2-2.0.14.RELEASE.jar!/org/springframework/security/oauth2/provider/endpoint/TokenEndpoint.class&#10;TokenEN&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/springframework/security/oauth/spring-security-oauth2/2.0.14.RELEASE/spring-security-oauth2-2.0.14.RELEASE.jar!/org/springframework/security/oauth2/provider/endpoint/TokenEndpoint.class&#10;grant&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/springframework/security/oauth/spring-security-oauth2/2.0.14.RELEASE/spring-security-oauth2-2.0.14.RELEASE.jar!/org/springframework/security/oauth2/provider/password/ResourceOwnerPasswordTokenGranter.class&#10;TokenEnd&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/springframework/security/oauth/spring-security-oauth2/2.0.14.RELEASE/spring-security-oauth2-2.0.14.RELEASE.jar!/org/springframework/security/oauth2/provider/endpoint/TokenEndpoint.class&#10;UsernameP&#9;PSI&#9;JAVA://org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter&#10;tokenend&#9;PSI&#9;JAVA://org.springframework.security.oauth2.provider.endpoint.TokenEndpoint&#10;Token&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/springframework/security/oauth/spring-security-oauth2/2.0.14.RELEASE/spring-security-oauth2-2.0.14.RELEASE.jar!/org/springframework/security/oauth2/provider/endpoint/TokenEndpoint.class&#10;ClientCredentialsTokenEndpointFilter&#9;PSI&#9;JAVA://org.springframework.security.oauth2.provider.client.ClientCredentialsTokenEndpointFilter&#10;Oauth2F&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.security.oauth2.client.OAuth2RestOperationsConfiguration.SessionScopedConfiguration#oauth2ClientFilterRegistration&#10;TokenE&#9;PSI&#9;JAVA://org.springframework.security.oauth2.provider.endpoint.TokenEndpoint&#10;tokenendpoint&#9;PSI&#9;JAVA://org.springframework.security.oauth2.provider.endpoint.TokenEndpoint&#10;Oauth&#9;FILE&#9;file://E:/spring-security/security-oatuth2/src/main/java/com/ceh/spring/securityoatuth2/securityoatuth2/security/controller/Oauth2Controller.java&#10;ExceptionTranslationFilter &#9;PSI&#9;JAVA://org.springframework.security.web.access.ExceptionTranslationFilter&#10;AuthenticationEntryPoint&#9;PSI&#9;JAVA://org.springframework.security.web.AuthenticationEntryPoint&#10;AnonymousAuthenticationFilter &#9;PSI&#9;JAVA://org.springframework.security.web.authentication.AnonymousAuthenticationFilter&#10;AbstractAuthenticationProcessingFilter &#9;PSI&#9;JAVA://org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter&#10;HttpSessionSecurityContextRepository &#9;PSI&#9;JAVA://org.springframework.security.web.context.HttpSessionSecurityContextRepository&#10;UsernamePasswordAuthenticationFilter &#9;PSI&#9;JAVA://org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter&#10;SecurityContextPersistenceFilter &#9;PSI&#9;JAVA://org.springframework.security.web.context.SecurityContextPersistenceFilter&#10;AuthenticationMan&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/springframework/security/spring-security-core/4.2.4.RELEASE/spring-security-core-4.2.4.RELEASE.jar!/org/springframework/security/authentication/AuthenticationManager.class&#10;authenticationM&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/springframework/security/spring-security-core/4.2.4.RELEASE/spring-security-core-4.2.4.RELEASE.jar!/org/springframework/security/authentication/AuthenticationManager.class&#10;daoau&#9;PSI&#9;JAVA://org.springframework.security.authentication.dao.DaoAuthenticationProvider&#10;Daoauthen&#9;PSI&#9;JAVA://org.springframework.security.config.annotation.authentication.configurers.userdetails.DaoAuthenticationConfigurer&#10;Authen&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/springframework/security/spring-security-core/4.2.4.RELEASE/spring-security-core-4.2.4.RELEASE.jar!/org/springframework/security/authentication/AuthenticationManager.class&#10;CSRFF&#9;PSI&#9;JAVA://org.springframework.security.web.csrf.CsrfFilter&#10;authen&#9;PSI&#9;JAVA://com.ceh.spring.securityoatuth2.securityoatuth2.config.Oauth2ServerConfiguration.AuthorizationServerConfiguration#authenticationManager&#10;authenticationManagerBean&#9;PSI&#9;JAVA://org.springframework.security.config.authentication.AuthenticationManagerBeanDefinitionParser&#10;ClientCredentialsTokenEndpointFilte&#9;PSI&#9;JAVA://org.springframework.security.oauth2.provider.client.ClientCredentialsTokenEndpointFilter&#10;OAuth2AuthenticationProcessingFilter&#9;PSI&#9;JAVA://org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter&#10;AuthorizationServerTokenServices&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/springframework/security/oauth/spring-security-oauth2/2.0.14.RELEASE/spring-security-oauth2-2.0.14.RELEASE.jar!/org/springframework/security/oauth2/provider/token/AuthorizationServerTokenServices.class&#10;AbstractTokenGranter &#9;PSI&#9;JAVA://org.springframework.security.oauth2.provider.token.AbstractTokenGranter&#10;TokenEndpoint&#9;PSI&#9;JAVA://org.springframework.security.oauth2.provider.endpoint.TokenEndpoint" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelWidth1" value="75" />
@@ -373,7 +323,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SecurityOatuth2Application">
+  <component name="RunManager" selected="Spring Boot.SecurityDbApplication">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -536,7 +486,8 @@
       <workItem from="1524014778332" duration="3006000" />
       <workItem from="1524044805726" duration="2483000" />
       <workItem from="1524101541513" duration="16405000" />
-      <workItem from="1524448982925" duration="14185000" />
+      <workItem from="1524448982925" duration="25733000" />
+      <workItem from="1524626819837" duration="3000" />
     </task>
     <task id="LOCAL-00001" summary="修改project pom">
       <created>1522374763697</created>
@@ -559,47 +510,54 @@
       <option name="project" value="LOCAL" />
       <updated>1522390330702</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="修改project pom">
+      <created>1524474680647</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1524474680647</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77916000" />
+    <option name="totallyTimeSpent" value="89467000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39409986" sideWeight="0.49033818" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.057488654" sideWeight="0.50966185" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25189108" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41491085" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3540091" sideWeight="0.49033818" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.057488654" sideWeight="0.50966185" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28038898" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -612,10 +570,10 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25189108" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25189108" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41491085" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28038898" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -627,7 +585,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3540091" sideWeight="0.49033818" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39409986" sideWeight="0.49033818" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.057488654" sideWeight="0.50966185" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -661,297 +619,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.4.RELEASE/spring-security-core-4.2.4.RELEASE.jar!/org/springframework/security/authentication/dao/DaoAuthenticationProvider.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.4.RELEASE/spring-security-core-4.2.4.RELEASE.jar!/org/springframework/security/authentication/dao/AbstractUserDetailsAuthenticationProvider.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.4.RELEASE/spring-security-web-4.2.4.RELEASE-sources.jar!/org/springframework/security/web/authentication/logout/LogoutFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="116" column="0" lean-forward="false" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.4.RELEASE/spring-security-web-4.2.4.RELEASE-sources.jar!/org/springframework/security/web/header/HeaderWriterFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.14.RELEASE/spring-web-4.3.14.RELEASE.jar!/org/springframework/web/filter/OncePerRequestFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.4.RELEASE/spring-security-web-4.2.4.RELEASE-sources.jar!/org/springframework/security/web/FilterChainProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="332" column="0" lean-forward="false" selection-start-line="332" selection-start-column="0" selection-end-line="332" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.4.RELEASE/spring-security-web-4.2.4.RELEASE-sources.jar!/org/springframework/security/web/context/SecurityContextPersistenceFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="114" column="0" lean-forward="false" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.0.14.RELEASE/spring-security-oauth2-2.0.14.RELEASE.jar!/org/springframework/security/oauth2/provider/request/DefaultOAuth2RequestValidator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="32" column="27" lean-forward="false" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.0.14.RELEASE/spring-security-oauth2-2.0.14.RELEASE.jar!/org/springframework/security/oauth2/provider/OAuth2RequestValidator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.4.RELEASE/spring-security-core-4.2.4.RELEASE.jar!/org/springframework/security/authentication/ProviderManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="656">
-          <caret line="59" column="19" lean-forward="false" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
-          <folding>
-            <marker date="1523952464888" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1523952464888" expanded="false" signature="167:850" ph="..." />
-            <marker date="1523952464888" expanded="false" signature="1355:1366" ph=" { " />
-            <marker date="1523952464888" expanded="false" signature="1411:1417" ph=" }" />
-            <marker date="1523952464888" expanded="true" signature="1516:1930" ph="{...}" />
-            <marker date="1523952464888" expanded="true" signature="1986:2020" ph="{...}" />
-            <marker date="1523952464888" expanded="true" signature="2052:2263" ph="{...}" />
-            <marker date="1523952464888" expanded="true" signature="2366:4724" ph="{...}" />
-            <marker date="1523952464888" expanded="true" signature="4809:4884" ph="{...}" />
-            <marker date="1523952464888" expanded="true" signature="4959:5199" ph="{...}" />
-            <marker date="1523952464888" expanded="false" signature="5255:5266" ph=" { " />
-            <marker date="1523952464888" expanded="false" signature="5288:5294" ph=" }" />
-            <marker date="1523952464888" expanded="true" signature="5358:5431" ph="{...}" />
-            <marker date="1523952464888" expanded="true" signature="5526:5666" ph="{...}" />
-            <marker date="1523952464888" expanded="true" signature="5748:5823" ph="{...}" />
-            <marker date="1523952464888" expanded="false" signature="5883:5894" ph=" { " />
-            <marker date="1523952464888" expanded="false" signature="5942:5948" ph=" }" />
-            <marker date="1523952464888" expanded="true" signature="6040:6317" ph="{...}" />
-            <marker date="1523952464888" expanded="true" signature="6079:6090" ph="{}" />
-            <marker date="1523952464888" expanded="true" signature="6207:6218" ph="{}" />
-            <marker date="1523952464888" expanded="true" signature="6300:6311" ph="{}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.4.RELEASE/spring-security-web-4.2.4.RELEASE-sources.jar!/org/springframework/security/web/authentication/UsernamePasswordAuthenticationFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="46" column="24" lean-forward="false" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.4.RELEASE/spring-security-web-4.2.4.RELEASE-sources.jar!/org/springframework/security/web/authentication/AbstractAuthenticationProcessingFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="281" column="35" lean-forward="false" selection-start-line="281" selection-start-column="35" selection-end-line="281" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.0.14.RELEASE/spring-security-oauth2-2.0.14.RELEASE.jar!/org/springframework/security/oauth2/provider/client/ClientCredentialsTokenEndpointFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="848">
-          <caret line="77" column="17" lean-forward="false" selection-start-line="77" selection-start-column="17" selection-end-line="77" selection-end-column="17" />
-          <folding>
-            <marker date="1523952528209" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1523952528209" expanded="false" signature="175:1373" ph="..." />
-            <marker date="1523952528209" expanded="false" signature="1622:1633" ph=" { " />
-            <marker date="1523952528209" expanded="false" signature="1654:1660" ph=" }" />
-            <marker date="1523952528209" expanded="true" signature="1723:2092" ph="{...}" />
-            <marker date="1523952528209" expanded="false" signature="2149:2160" ph=" { " />
-            <marker date="1523952528209" expanded="false" signature="2195:2201" ph=" }" />
-            <marker date="1523952528209" expanded="true" signature="2298:2371" ph="{...}" />
-            <marker date="1523952528209" expanded="true" signature="2410:3409" ph="{...}" />
-            <marker date="1523952528209" expanded="true" signature="2528:3117" ph="{...}" />
-            <marker date="1523952528209" expanded="true" signature="2708:3107" ph="{...}" />
-            <marker date="1523952528209" expanded="true" signature="3200:3401" ph="{...}" />
-            <marker date="1523952528209" expanded="true" signature="3376:3391" ph="{}" />
-            <marker date="1523952528209" expanded="true" signature="3579:4679" ph="{...}" />
-            <marker date="1523952528209" expanded="true" signature="4866:4994" ph="{...}" />
-            <marker date="1523952528209" expanded="true" signature="5081:5806" ph="{...}" />
-            <marker date="1523952528209" expanded="false" signature="5172:5187" ph=" { " />
-            <marker date="1523952528209" expanded="false" signature="5204:5214" ph=" }" />
-            <marker date="1523952528209" expanded="true" signature="5275:5800" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/4.2.4.RELEASE/spring-security-config-4.2.4.RELEASE.jar!/org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2592">
-          <caret line="220" column="55" lean-forward="false" selection-start-line="220" selection-start-column="55" selection-end-line="220" selection-end-column="55" />
-          <folding>
-            <marker date="1523952420859" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1523952420859" expanded="false" signature="188:2925" ph="..." />
-            <marker date="1523952420859" expanded="false" signature="3784:3795" ph=" { " />
-            <marker date="1523952420859" expanded="false" signature="3807:3813" ph=" }" />
-            <marker date="1523952420859" expanded="true" signature="3883:4480" ph="{...}" />
-            <marker date="1523952420859" expanded="false" signature="4079:4163" ph="postProcess(object) → {" />
-            <marker date="1523952420859" expanded="false" signature="4342:4357" ph="}" />
-            <marker date="1523952420859" expanded="true" signature="4563:4631" ph="{...}" />
-            <marker date="1523952420859" expanded="true" signature="4693:6537" ph="{...}" />
-            <marker date="1523952420859" expanded="true" signature="6617:6746" ph="{...}" />
-            <marker date="1523952420859" expanded="true" signature="6825:7386" ph="{...}" />
-            <marker date="1523952420859" expanded="true" signature="7460:7762" ph="{...}" />
-            <marker date="1523952420859" expanded="true" signature="7818:8120" ph="{...}" />
-            <marker date="1523952420859" expanded="true" signature="8183:8587" ph="{...}" />
-            <marker date="1523952420859" expanded="false" signature="8299:8347" ph="run() → {" />
-            <marker date="1523952420859" expanded="false" signature="8564:8579" ph="}" />
-            <marker date="1523952420859" expanded="true" signature="8649:8656" ph="{}" />
-            <marker date="1523952420859" expanded="true" signature="8723:9026" ph="{...}" />
-            <marker date="1523952420859" expanded="false" signature="9090:9101" ph=" { " />
-            <marker date="1523952420859" expanded="false" signature="9121:9127" ph=" }" />
-            <marker date="1523952420859" expanded="false" signature="9209:9220" ph=" { " />
-            <marker date="1523952420859" expanded="false" signature="9243:9249" ph=" }" />
-            <marker date="1523952420859" expanded="true" signature="9255:9297" ph="@{...}" />
-            <marker date="1523952420859" expanded="false" signature="9373:9384" ph=" { " />
-            <marker date="1523952420859" expanded="false" signature="9419:9425" ph=" }" />
-            <marker date="1523952420859" expanded="true" signature="9431:9473" ph="@{...}" />
-            <marker date="1523952420859" expanded="true" signature="9574:9651" ph="{...}" />
-            <marker date="1523952420859" expanded="true" signature="9756:10306" ph="{...}" />
-            <marker date="1523952420859" expanded="true" signature="10008:10299" ph="{...}" />
-            <marker date="1523952420859" expanded="true" signature="10101:10289" ph="{...}" />
-            <marker date="1523952420859" expanded="true" signature="10427:10506" ph="{...}" />
-            <marker date="1523952420859" expanded="true" signature="10579:11103" ph="{...}" />
-            <marker date="1523952420859" expanded="true" signature="11192:13936" ph="{...}" />
-            <marker date="1523952420859" expanded="true" signature="11518:12040" ph="{...}" />
-            <marker date="1523952420859" expanded="true" signature="12147:12713" ph="{...}" />
-            <marker date="1523952420859" expanded="true" signature="12823:13041" ph="{...}" />
-            <marker date="1523952420859" expanded="true" signature="13125:13930" ph="{...}" />
-            <marker date="1523952420859" expanded="true" signature="14019:15809" ph="{...}" />
-            <marker date="1523952420859" expanded="true" signature="14286:14573" ph="{...}" />
-            <marker date="1523952420859" expanded="true" signature="14671:15803" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.0.14.RELEASE/spring-security-oauth2-2.0.14.RELEASE.jar!/org/springframework/security/oauth2/provider/TokenGranter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <marker date="1523952528209" expanded="false" signature="0:104" ph="/.../" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.0.14.RELEASE/spring-security-oauth2-2.0.14.RELEASE.jar!/org/springframework/security/oauth2/provider/CompositeTokenGranter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="12" column="52" lean-forward="false" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.0.14.RELEASE/spring-security-oauth2-2.0.14.RELEASE.jar!/org/springframework/security/oauth2/provider/client/ClientCredentialsTokenGranter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="16" column="58" lean-forward="false" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.0.14.RELEASE/spring-security-oauth2-2.0.14.RELEASE.jar!/org/springframework/security/oauth2/config/annotation/web/configurers/AuthorizationServerEndpointsConfigurer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="509" column="0" lean-forward="false" selection-start-line="509" selection-start-column="0" selection-end-line="509" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.0.14.RELEASE/spring-security-oauth2-2.0.14.RELEASE.jar!/org/springframework/security/oauth2/provider/TokenRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.0.14.RELEASE/spring-security-oauth2-2.0.14.RELEASE.jar!/org/springframework/security/oauth2/provider/endpoint/AbstractEndpoint.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.0.14.RELEASE/spring-security-oauth2-2.0.14.RELEASE.jar!/org/springframework/security/oauth2/provider/password/ResourceOwnerPasswordTokenGranter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.14.RELEASE/spring-aop-4.3.14.RELEASE.jar!/org/springframework/aop/framework/CglibAopProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="488" column="0" lean-forward="false" selection-start-line="488" selection-start-column="0" selection-end-line="488" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.0.14.RELEASE/spring-security-oauth2-2.0.14.RELEASE.jar!/org/springframework/security/oauth2/provider/token/AuthorizationServerTokenServices.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.0.14.RELEASE/spring-security-oauth2-2.0.14.RELEASE.jar!/org/springframework/security/oauth2/provider/token/DefaultAuthenticationKeyGenerator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="26" column="24" lean-forward="true" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-          <folding>
-            <marker date="1523952528209" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1523952528209" expanded="false" signature="174:612" ph="..." />
-            <marker date="1523952528209" expanded="true" signature="910:917" ph="{}" />
-            <marker date="1523952528209" expanded="true" signature="985:1537" ph="{...}" />
-            <marker date="1523952528209" expanded="true" signature="1600:2181" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.14.RELEASE/spring-core-4.3.14.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="104" column="0" lean-forward="false" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.0.14.RELEASE/spring-security-oauth2-2.0.14.RELEASE.jar!/org/springframework/security/oauth2/common/DefaultExpiringOAuth2RefreshToken.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -959,7 +630,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -967,7 +637,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="507">
           <caret line="46" column="8" lean-forward="false" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -975,7 +644,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="94">
           <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -983,7 +651,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -991,7 +658,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="264" column="16" lean-forward="false" selection-start-line="264" selection-start-column="16" selection-end-line="264" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -999,7 +665,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
           <caret line="298" column="19" lean-forward="false" selection-start-line="298" selection-start-column="19" selection-end-line="298" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1007,7 +672,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="367">
           <caret line="32" column="12" lean-forward="false" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1015,7 +679,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="18" column="43" lean-forward="false" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1023,7 +686,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="303">
           <caret line="27" column="25" lean-forward="false" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1031,7 +693,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
           <caret line="56" column="52" lean-forward="false" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1039,24 +700,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="38" column="22" lean-forward="false" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
-          <folding>
-            <marker date="1523952528209" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1523952528209" expanded="false" signature="168:360" ph="..." />
-            <marker date="1523952528209" expanded="true" signature="703:922" ph="{...}" />
-            <marker date="1523952528209" expanded="false" signature="958:969" ph=" { " />
-            <marker date="1523952528209" expanded="false" signature="979:985" ph=" }" />
-            <marker date="1523952528209" expanded="true" signature="1020:1151" ph="{...}" />
-            <marker date="1523952528209" expanded="false" signature="1186:1197" ph=" { " />
-            <marker date="1523952528209" expanded="false" signature="1236:1242" ph=" }" />
-            <marker date="1523952528209" expanded="false" signature="1287:1298" ph=" { " />
-            <marker date="1523952528209" expanded="false" signature="1324:1330" ph=" }" />
-            <marker date="1523952528209" expanded="true" signature="1381:1392" ph=" { " />
-            <marker date="1523952528209" expanded="true" signature="1423:1429" ph=" }" />
-            <marker date="1523952528209" expanded="true" signature="1468:1605" ph="{...}" />
-            <marker date="1523952528209" expanded="true" signature="1642:1937" ph="{...}" />
-            <marker date="1523952528209" expanded="true" signature="1975:3123" ph="{...}" />
-            <marker date="1523952528209" expanded="true" signature="3151:3389" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1064,39 +707,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="94" column="84" lean-forward="true" selection-start-line="94" selection-start-column="84" selection-end-line="94" selection-end-column="84" />
-          <folding>
-            <marker date="1523952528209" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1523952528209" expanded="false" signature="174:1831" ph="..." />
-            <marker date="1523952528209" expanded="true" signature="2414:2421" ph="{}" />
-            <marker date="1523952528209" expanded="true" signature="2477:2551" ph="{...}" />
-            <marker date="1523952528209" expanded="true" signature="2687:4194" ph="{...}" />
-            <marker date="1523952528209" expanded="true" signature="4200:4304" ph="@{...}" />
-            <marker date="1523952528209" expanded="true" signature="4437:7066" ph="{...}" />
-            <marker date="1523952528209" expanded="true" signature="7149:7219" ph="{...}" />
-            <marker date="1523952528209" expanded="true" signature="7343:8041" ph="{...}" />
-            <marker date="1523952528209" expanded="true" signature="8108:8464" ph="{...}" />
-            <marker date="1523952528209" expanded="true" signature="8531:8599" ph="{...}" />
-            <marker date="1523952528209" expanded="true" signature="8731:9909" ph="{...}" />
-            <marker date="1523952528209" expanded="true" signature="9960:10509" ph="{...}" />
-            <marker date="1523952528209" expanded="true" signature="10561:10981" ph="{...}" />
-            <marker date="1523952528209" expanded="true" signature="11070:11588" ph="{...}" />
-            <marker date="1523952528209" expanded="true" signature="11708:12317" ph="{...}" />
-            <marker date="1523952528209" expanded="true" signature="12393:12771" ph="{...}" />
-            <marker date="1523952528209" expanded="true" signature="12848:13228" ph="{...}" />
-            <marker date="1523952528209" expanded="true" signature="13300:13616" ph="{...}" />
-            <marker date="1523952528209" expanded="false" signature="13685:13696" ph=" { " />
-            <marker date="1523952528209" expanded="false" signature="13743:13749" ph=" }" />
-            <marker date="1523952528209" expanded="true" signature="13831:13910" ph="{...}" />
-            <marker date="1523952528209" expanded="true" signature="13990:14067" ph="{...}" />
-            <marker date="1523952528209" expanded="false" signature="14136:14147" ph=" { " />
-            <marker date="1523952528209" expanded="false" signature="14194:14200" ph=" }" />
-            <marker date="1523952528209" expanded="false" signature="14265:14276" ph=" { " />
-            <marker date="1523952528209" expanded="false" signature="14319:14325" ph=" }" />
-            <marker date="1523952528209" expanded="false" signature="14379:14390" ph=" { " />
-            <marker date="1523952528209" expanded="false" signature="14419:14425" ph=" }" />
-            <marker date="1523952528209" expanded="true" signature="14513:14580" ph="{...}" />
-            <marker date="1523952528209" expanded="true" signature="14665:14730" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1104,7 +714,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
           <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1112,7 +721,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="44" column="42" lean-forward="false" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1120,7 +728,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
           <caret line="52" column="32" lean-forward="false" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1128,7 +735,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="237">
           <caret line="117" column="63" lean-forward="true" selection-start-line="117" selection-start-column="63" selection-end-line="117" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1136,7 +742,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="136" column="22" lean-forward="true" selection-start-line="136" selection-start-column="22" selection-end-line="136" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1144,65 +749,297 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.0.14.RELEASE/spring-security-oauth2-2.0.14.RELEASE-sources.jar!/org/springframework/security/oauth2/config/annotation/web/configurers/AuthorizationServerEndpointsConfigurer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
-          <caret line="101" column="40" lean-forward="true" selection-start-line="101" selection-start-column="40" selection-end-line="101" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/4.2.4.RELEASE/spring-security-config-4.2.4.RELEASE.jar!/org/springframework/security/config/annotation/web/configurers/AbstractAuthenticationFilterConfigurer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="57" column="19" lean-forward="false" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
-          <folding />
+          <caret line="101" column="40" lean-forward="false" selection-start-line="101" selection-start-column="40" selection-end-line="101" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.0.14.RELEASE/spring-security-oauth2-2.0.14.RELEASE-sources.jar!/org/springframework/security/oauth2/config/annotation/builders/ClientDetailsServiceBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1904">
-          <caret line="152" column="36" lean-forward="true" selection-start-line="152" selection-start-column="36" selection-end-line="152" selection-end-column="36" />
-          <folding />
+          <caret line="152" column="36" lean-forward="false" selection-start-line="152" selection-start-column="36" selection-end-line="152" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.0.14.RELEASE/spring-security-oauth2-2.0.14.RELEASE-sources.jar!/org/springframework/security/oauth2/provider/token/DefaultTokenServices.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="93">
-          <caret line="54" column="61" lean-forward="true" selection-start-line="54" selection-start-column="61" selection-end-line="54" selection-end-column="61" />
-          <folding />
+          <caret line="54" column="61" lean-forward="false" selection-start-line="54" selection-start-column="61" selection-end-line="54" selection-end-column="61" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.0.14.RELEASE/spring-security-oauth2-2.0.14.RELEASE-sources.jar!/org/springframework/security/oauth2/provider/token/AuthorizationServerTokenServices.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
-          <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
-          <folding />
+          <caret line="27" column="29" lean-forward="false" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/security-oatuth2/src/main/java/com/ceh/spring/securityoatuth2/securityoatuth2/config/Oauth2ServerConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
-          <caret line="46" column="30" lean-forward="true" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="30" />
-          <folding>
-            <element signature="class#ResourceServerConfiguration#0;class#Oauth2ServerConfiguration#0" expanded="false" />
-          </folding>
+          <caret line="46" column="30" lean-forward="false" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.4.RELEASE/spring-security-web-4.2.4.RELEASE-sources.jar!/org/springframework/security/web/authentication/AbstractAuthenticationTargetUrlRequestHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="65" column="45" lean-forward="true" selection-start-line="65" selection-start-column="45" selection-end-line="65" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.4.RELEASE/spring-security-web-4.2.4.RELEASE-sources.jar!/org/springframework/security/web/authentication/logout/SimpleUrlLogoutSuccessHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="38" column="16" lean-forward="false" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.4.RELEASE/spring-security-web-4.2.4.RELEASE-sources.jar!/org/springframework/security/web/authentication/logout/DelegatingLogoutSuccessHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="49" column="16" lean-forward="false" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.4.RELEASE/spring-security-web-4.2.4.RELEASE-sources.jar!/org/springframework/security/web/authentication/logout/LogoutSuccessHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="38" column="9" lean-forward="false" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.4.RELEASE/spring-security-web-4.2.4.RELEASE-sources.jar!/org/springframework/security/web/csrf/CsrfLogoutHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="38" column="55" lean-forward="false" selection-start-line="38" selection-start-column="55" selection-end-line="38" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.4.RELEASE/spring-security-web-4.2.4.RELEASE-sources.jar!/org/springframework/security/web/context/AbstractSecurityWebApplicationInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="656">
+          <caret line="100" column="56" lean-forward="false" selection-start-line="100" selection-start-column="56" selection-end-line="100" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/security-oatuth2/src/main/java/com/ceh/spring/securityoatuth2/securityoatuth2/config/SecurityConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="26" column="52" lean-forward="true" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
+        <state relative-caret-position="224">
+          <caret line="21" column="40" lean-forward="false" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security-db/src/main/resources/web/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security-db/src/main/resources/web/admin/hello.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security-db/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.4.RELEASE/spring-security-web-4.2.4.RELEASE-sources.jar!/org/springframework/security/web/authentication/LoginUrlAuthenticationEntryPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="95" column="25" lean-forward="false" selection-start-line="95" selection-start-column="13" selection-end-line="95" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/4.2.4.RELEASE/spring-security-config-4.2.4.RELEASE.jar!/org/springframework/security/config/annotation/web/configurers/FormLoginConfigurer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="23" column="46" lean-forward="false" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security-db/src/main/java/com/ceh/spring/securitydb/config/WebMvcConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="19" column="49" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security-db/src/main/java/com/ceh/spring/securitydb/config/ThymeleafConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security-db/src/main/resources/web/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security-db/src/main/java/com/ceh/spring/securitydb/SecurityDbApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security-db/src/main/resources/web/registry.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="24" column="37" lean-forward="false" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security-db/src/main/java/com/ceh/spring/securitydb/config/SecurityConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="29" column="68" lean-forward="false" selection-start-line="29" selection-start-column="68" selection-end-line="29" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security-no-db/src/main/java/com/ceh/spring/securitynodb/config/WebMvcConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security-no-db/src/main/java/com/ceh/spring/securitynodb/config/ThymeleafConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security-no-db/src/main/java/com/ceh/spring/securitynodb/config/SecurityConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="20" column="60" lean-forward="false" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/4.2.4.RELEASE/spring-security-config-4.2.4.RELEASE.jar!/org/springframework/security/config/annotation/web/configurers/AbstractAuthenticationFilterConfigurer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="59" column="12" lean-forward="false" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.4.RELEASE/spring-security-web-4.2.4.RELEASE-sources.jar!/org/springframework/security/web/authentication/logout/LogoutFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="51" column="34" lean-forward="false" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.27/tomcat-embed-core-8.5.27.jar!/javax/servlet/Filter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding>
+            <marker date="1523952381605" expanded="false" signature="0:104" ph="/.../" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.14.RELEASE/spring-web-4.3.14.RELEASE.jar!/org/springframework/web/filter/CharacterEncodingFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="14" column="53" lean-forward="false" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+          <folding>
+            <marker date="1523952453309" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1523952453309" expanded="false" signature="154:380" ph="..." />
+            <marker date="1523952453309" expanded="true" signature="602:696" ph="{...}" />
+            <marker date="1523952453309" expanded="false" signature="749:760" ph=" { " />
+            <marker date="1523952453309" expanded="false" signature="782:788" ph=" }" />
+            <marker date="1523952453309" expanded="true" signature="865:926" ph="{...}" />
+            <marker date="1523952453309" expanded="true" signature="1041:1353" ph="{...}" />
+            <marker date="1523952453309" expanded="false" signature="1399:1410" ph=" { " />
+            <marker date="1523952453309" expanded="false" signature="1435:1441" ph=" }" />
+            <marker date="1523952453309" expanded="false" signature="1474:1485" ph=" { " />
+            <marker date="1523952453309" expanded="false" signature="1506:1512" ph=" }" />
+            <marker date="1523952453309" expanded="true" signature="1570:1680" ph="{...}" />
+            <marker date="1523952453309" expanded="true" signature="1752:1817" ph="{...}" />
+            <marker date="1523952453309" expanded="false" signature="1862:1873" ph=" { " />
+            <marker date="1523952453309" expanded="false" signature="1906:1912" ph=" }" />
+            <marker date="1523952453309" expanded="true" signature="1986:2053" ph="{...}" />
+            <marker date="1523952453309" expanded="false" signature="2099:2110" ph=" { " />
+            <marker date="1523952453309" expanded="false" signature="2144:2150" ph=" }" />
+            <marker date="1523952453309" expanded="true" signature="2308:2736" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.14.RELEASE/spring-web-4.3.14.RELEASE.jar!/org/springframework/web/filter/OncePerRequestFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="16" column="58" lean-forward="false" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
+          <folding>
+            <marker date="1523952453309" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1523952453309" expanded="false" signature="154:483" ph="..." />
+            <marker date="1523952453309" expanded="true" signature="661:668" ph="{}" />
+            <marker date="1523952453309" expanded="true" signature="813:1910" ph="{...}" />
+            <marker date="1523952453309" expanded="true" signature="1973:2239" ph="{...}" />
+            <marker date="1523952453309" expanded="true" signature="2307:2391" ph="{...}" />
+            <marker date="1523952453309" expanded="true" signature="2458:2550" ph="{...}" />
+            <marker date="1523952453309" expanded="true" signature="2607:2778" ph="{...}" />
+            <marker date="1523952453309" expanded="true" signature="2870:2899" ph="{...}" />
+            <marker date="1523952453309" expanded="false" signature="2953:2964" ph=" { " />
+            <marker date="1523952453309" expanded="false" signature="2976:2982" ph=" }" />
+            <marker date="1523952453309" expanded="false" signature="3036:3047" ph=" { " />
+            <marker date="1523952453309" expanded="false" signature="3059:3065" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.14.RELEASE/spring-web-4.3.14.RELEASE.jar!/org/springframework/web/filter/GenericFilterBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="97" column="115" lean-forward="false" selection-start-line="97" selection-start-column="115" selection-end-line="97" selection-end-column="115" />
+          <folding>
+            <marker date="1523952453309" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1523952453309" expanded="false" signature="154:1692" ph="..." />
+            <marker date="1523952453309" expanded="true" signature="2178:2185" ph="{}" />
+            <marker date="1523952453309" expanded="false" signature="2231:2242" ph=" { " />
+            <marker date="1523952453309" expanded="false" signature="2267:2273" ph=" }" />
+            <marker date="1523952453309" expanded="false" signature="2330:2341" ph=" { " />
+            <marker date="1523952453309" expanded="false" signature="2372:2378" ph=" }" />
+            <marker date="1523952453309" expanded="true" signature="2420:2568" ph="{...}" />
+            <marker date="1523952453309" expanded="false" signature="2615:2626" ph=" { " />
+            <marker date="1523952453309" expanded="false" signature="2666:2672" ph=" }" />
+            <marker date="1523952453309" expanded="false" signature="2738:2749" ph=" { " />
+            <marker date="1523952453309" expanded="false" signature="2786:2792" ph=" }" />
+            <marker date="1523952453309" expanded="true" signature="2855:2893" ph="{...}" />
+            <marker date="1523952453309" expanded="true" signature="2921:2928" ph="{}" />
+            <marker date="1523952453309" expanded="false" signature="2991:3002" ph=" { " />
+            <marker date="1523952453309" expanded="false" signature="3040:3046" ph=" }" />
+            <marker date="1523952453309" expanded="true" signature="3126:4634" ph="{...}" />
+            <marker date="1523952453309" expanded="true" signature="4709:4716" ph="{}" />
+            <marker date="1523952453309" expanded="true" signature="4778:4785" ph="{}" />
+            <marker date="1523952453309" expanded="false" signature="4834:4845" ph=" { " />
+            <marker date="1523952453309" expanded="false" signature="4870:4876" ph=" }" />
+            <marker date="1523952453309" expanded="true" signature="4921:5022" ph="{...}" />
+            <marker date="1523952453309" expanded="true" signature="5079:5190" ph="{...}" />
+            <marker date="1523952453309" expanded="true" signature="5274:6310" ph="{...}" />
+            <marker date="1523952453309" expanded="true" signature="5395:6304" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
